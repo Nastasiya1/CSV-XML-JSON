@@ -7,6 +7,30 @@ public class Basket {
     private int[] prices;
     private int[] amountOfProducts;
 
+    public String[] getProducts() {
+        return products;
+    }
+
+    public void setProducts(String[] products) {
+        this.products = products;
+    }
+
+    public void setPrices(int[] prices) {
+        this.prices = prices;
+    }
+
+    public void setAmountOfProducts(int[] amountOfProducts) {
+        this.amountOfProducts = amountOfProducts;
+    }
+
+    public int[] getPrices() {
+        return prices;
+    }
+
+    public int[] getAmountOfProducts() {
+        return amountOfProducts;
+    }
+
     public Basket(String[] products, int[] prices) {
         this.products = products;
         this.prices = prices;
